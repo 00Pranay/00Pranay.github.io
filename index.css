@@ -1,0 +1,146 @@
+*,*::before,*::after{box-sizing: border-box;}
+@font-face{
+	font-family: "Myfont";
+	src:url("Bebas Neue");
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-image:url("img/portfolio-background.png");
+	background-repeat: no-repeat;
+}
+
+/*section{
+	width: 100%
+	height:100%;
+	background-image:url("img/purple_background.webp");
+}*/
+#main{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	background-color: #ffd336;
+	padding :1% 0 1% 0;
+}
+.container ul{
+    display: flex;
+    justify-content: space-around;
+    font-size:1.5rem;
+	margin: 0;
+}
+.container ul li{
+	list-style: none;
+}
+.container a{
+	text-decoration: none;
+}
+.container a:hover{}
+.intro{
+	margin: 0;
+	color: yellow;
+	display: flex;
+}
+.h1,.h3{
+	margin: 0;
+}
+.name{
+	position: relative;
+	font-family:verdana;
+	font-size: 3rem;
+	padding: 8% 0 0 5%;
+}
+strong{
+	padding: 8% 0 0 6%;
+	font-size:2.5rem;
+}
+
+.me img{
+	position: relative;
+	width:38vh;
+	height:90vh;
+	bottom: 10vh;
+	left: 13%;
+}
+ .me{
+	top:30vh;
+ 	width: 50vh;
+ 	height: 50vh;
+ 	background-image: url("img/background2.webp");
+ 	position: absolute;
+	bottom: 25%;
+	right: 12%;
+	border-radius: 50%;
+	background-size: cover;
+	overflow: hidden;
+	box-shadow: 10px 10px 20px 0px #ffd336;
+}
+@media  only screen and (max-width:1195px){
+	.name{
+	position: relative;
+	font-size: 2.8rem;
+	padding: 7% 0 0 4%;
+}
+strong{
+	padding: 8% 0 0 6%;
+	font-size:2.5rem;
+}
+
+.me img{
+	position: relative;
+	width:38vh;
+	height:90vh;
+	bottom: 10vh;
+	left: 13%;
+}
+ .me{
+	top:20vh;
+ 	width: 45vh;
+ 	height: 45vh;
+ 	position: absolute;
+	bottom: 25%;
+	right: 8%;
+	border-radius: 50%;
+}
+}
+@media  only screen and (max-width:961px){
+	.name{
+	position: relative;
+	font-size: 2.8rem;
+	padding: 35% 0 0 25%;
+ }
+strong{
+	padding: 8% 10% 0 6%;
+	font-size:2.5rem;
+ }
+
+.me img{
+	position: relative;
+	width:28vh;
+	height:60vh;
+	bottom: 5vh;
+	left:4%;
+ }
+ .me{
+ 	position: absolute;
+	top:15%;	
+ 	width: 30vh;
+ 	height: 30vh;
+	bottom: 25%;
+	right: 35%;
+
+ }
+}
+@media  only screen and (max-width:800px){
+	.name{
+	position: relative;
+	font-size: 1.8rem;
+	padding: 50% 0 0 10%;
+	}
+	strong{
+	padding: 8% 10% 0 6%;
+	font-size:1.5rem;
+	}
+	
+}
